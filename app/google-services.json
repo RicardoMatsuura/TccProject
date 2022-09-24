@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "787838204268",
+    "project_id": "tccproject-a7674",
+    "storage_bucket": "tccproject-a7674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787838204268:android:d7ebec5d86b4666cb31b49",
+        "android_client_info": {
+          "package_name": "com.ricardoyujimatsuura.tccproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787838204268-i1l1qb76b94n67ks9rphj5ej1s7dap8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ricardoyujimatsuura.tccproject",
+            "certificate_hash": "c2b0ea59af096a2aaf601f8b6b0bff587a8c1bcd"
+          }
+        },
+        {
+          "client_id": "787838204268-ngassj0fq3cj9leqd5qkcth6hc1bs760.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOc9tiN59tyf9qjljMGRPADiiqLAr-CbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787838204268-ngassj0fq3cj9leqd5qkcth6hc1bs760.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
