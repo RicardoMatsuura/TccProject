@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">TccProject</string>
+
+    <!-- login page !-->
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="signIn_button">Sign In</string>
+    <string name="signUp_button">Sign Up</string>
+    <string name="login_invalid_password_or_email">Invalid email or password</string>
+    <string name="sign_in_success">Login Successful</string>
+    <string name="sign_in_error">Sign in error: </string>
+
+    <!-- sign up page !-->
+    <string name="name_hint">Name</string>
+    <string name="nickname_hint">Nickname (optional)</string>
+    <string name="success_message_sign_up">Success</string>
+    <string name="sign_up_weak_password">Your password is weak, it must have at least 6 characters</string>
+    <string name="sign_up_invalid_email">Please, write the email in this format example@example.com</string>
+    <string name="sign_up_email_already_registered">This e-mail is already registered!</string>
+    <string name="sign_up_error">\"There was and error registering the new user: \"</string>
+    <string name="empty_name_sign_up">Please write your name.</string>
+    <string name="empty_email_sign_up">Please write an e-mail.</string>
+    <string name="empty_password_sign_up">Please write a password</string>
+
+    <!-- user model !-->
+    <string name="users_user_class">users</string>
+
+
+
 </resources>
