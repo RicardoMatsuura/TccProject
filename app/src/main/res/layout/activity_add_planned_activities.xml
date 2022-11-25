@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGameActivities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@id/buttonAddNewGameActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCancelPopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonAddActivitiesToTrainingPlan" />
+
+    <Button
+        android:id="@+id/buttonAddNewGameActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add New Activity"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAddActivitiesToTrainingPlan"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddActivitiesToTrainingPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add Activities"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCancelPopup"
+        app:layout_constraintStart_toStartOf="parent" />!-->
+
+
+    <TextView
+        android:id="@+id/textViewActivityTypePlanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/activity_type"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerActivityTypePlanned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerActivityTypePlanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActivityTypePlanned" />
+
+    <Button
+        android:id="@+id/materialButtonListActivityTypes"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="end|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:tooltipText="List Activity Types"
+        app:icon="@drawable/ic_baseline_list_24"
+        app:iconPadding="0dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toEndOf="@+id/spinnerActivityTypePlanned"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActivityTypePlanned" />
+
+    <TextView
+        android:id="@+id/textViewGoalPlanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/goal"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDescriptionPlannedActivity" />
+
+    <EditText
+        android:id="@+id/editTextGoalNumberAddPlanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/numbers"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGoalPlanned" />
+
+    <TextView
+        android:id="@+id/textViewActivityDonePlannedActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/activities_done"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerViewAddedActivityDone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYourActivitiesFix" />
+
+    <Button
+        android:id="@+id/materialButtonAddActivityDonePlannedActivity"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="end|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:tooltipText="@string/list_activity_types"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconPadding="0dp"
+        app:iconTint="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/textViewActivityDonePlannedActivity"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYourActivitiesFix" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAddedActivityDone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:scrollbars="vertical"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActivityDonePlannedActivity" />
+
+    <TextView
+        android:id="@+id/textViewYourActivitiesFix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGoalNumberAddPlanned" />
+
+    <TextView
+        android:id="@+id/textViewStatisticTypeFix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/statistic_type_colon"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerActivityTypePlanned" />
+
+    <TextView
+        android:id="@+id/textViewValueTypeVar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewValueTypeFix"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStatisticTypeFix" />
+
+    <TextView
+        android:id="@+id/textViewValueTypeFix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/value_type_colon"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStatisticTypeFix" />
+
+    <TextView
+        android:id="@+id/textViewStatisticTypeVar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewStatisticTypeFix"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerActivityTypePlanned" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionPlannedActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/new_game_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewValueTypeFix" />
+
+    <EditText
+        android:id="@+id/editTextDescriptionPlannedActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionPlannedActivity" />
+
+    <!--<EditText
+        android:id="@+id/editTextGoalTimeAddPlanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Minutes"
+        android:inputType="time"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGoalNumberAddPlanned" /> !-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

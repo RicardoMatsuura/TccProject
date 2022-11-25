@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ActivityDoneActivity">
+
+    <TextView
+        android:id="@+id/textViewActivityDoneValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/value"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextActivityDoneValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActivityDoneValue" />
+
+    <TextView
+        android:id="@+id/textViewDateDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNote" />
+
+    <Button
+        android:id="@+id/materialButtonDatePick"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:gravity="end|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:tooltipText="List Activity Types"
+        app:icon="@drawable/edit_calendar_black_24dp"
+        app:iconPadding="0dp"
+        app:iconTint="#D32F2F"
+        app:layout_constraintStart_toEndOf="@+id/textViewDateDone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNote" />
+
+    <TextView
+        android:id="@+id/textViewTimeDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDateDone" />
+
+    <Button
+        android:id="@+id/materialButtonTimePick"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:gravity="end|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:tooltipText="List Activity Types"
+        app:icon="@drawable/schedule_black_24dp"
+        app:iconPadding="0dp"
+        app:iconTint="#D32F2F"
+        app:layout_constraintStart_toEndOf="@+id/textViewTimeDone"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDateDone" />
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/note"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextActivityDoneValue" />
+
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNote" />
+</androidx.constraintlayout.widget.ConstraintLayout>

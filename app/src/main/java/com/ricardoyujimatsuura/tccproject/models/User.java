@@ -2,7 +2,6 @@ package com.ricardoyujimatsuura.tccproject.models;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.Exclude;
-import com.ricardoyujimatsuura.tccproject.R;
 import com.ricardoyujimatsuura.tccproject.config.FirebaseConfig;
 
 public class User {

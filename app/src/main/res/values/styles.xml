@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <!--  Date Picker Styles   -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#6200EE</item>           <!-- Header Background -->
+        <item name="android:colorAccent">#6200EE</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogButtonStyled</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DialogButtonStyled</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/DialogButtonStyled</item>
+        <item name="android:colorControlActivated">#4971AC</item>
+        <!--selected day-->
+        <!--        <item name="android:textColorPrimary">#89B5F6</item> &lt;!&ndash;days of the month&ndash;&gt;-->
+        <!--        <item name="android:textColorSecondary">#0E3E85</item>    &lt;!&ndash;days of the week&ndash;&gt;-->
+    </style>
+
+    <!-- Date picker ok/cancel button styles    -->
+    <style name="DialogButtonStyled" parent="Theme.MaterialComponents.Light">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -2,7 +2,7 @@
     <string name="app_name">TccProject</string>
 
     <!-- login page !-->
-    <string name="email_hint">E-mail</string>
+    <string name="email_hint" translatable="false">E-mail</string>
     <string name="password_hint">Password</string>
     <string name="signIn_button">Sign In</string>
     <string name="signUp_button">Sign Up</string>
@@ -23,8 +23,131 @@
     <string name="empty_password_sign_up">Please write a password</string>
 
     <!-- user model !-->
-    <string name="users_user_class">users</string>
+    <string name="users_user_class" translatable="false">users</string>
 
+    <!-- new game activity !-->
+    <string name="new_game_description">Description</string>
+    <string name="new_game_category">Category</string>
+    <string name="nickname">Nickname</string>
+    <string name="change_password">Change Password</string>
+    <string name="Save">save</string>
+    <string name="save_password">Save Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile">Profile</string>
+    <string name="encrypted_shared_preferences" translatable="false">encrypted_shared_preferences</string>
 
+    <!-- new game activity !-->
+    <string-array name="game_category">
+        <item>Battle Royale</item>
+        <item>FPS</item>
+        <item>MMORPG</item>
+        <item>MOBA</item>
+        <item>RPG</item>
+        <item>RTS</item>
+        <item>Others</item>
+    </string-array>
 
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- string para porcentagem de meta batida ou não !-->
+    <string name="goal_percentage_done_sum">Your activities value sum is: %1$s (</string>
+    <string name="goal_percentage_done_average">Your activities value average is: %1$s (</string>
+    <string name="value_type">Value Type</string>
+    <string name="statistic_type">Statistic Type</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="goal">Goal</string>
+    <string name="numbers">Number</string>
+    <string name="activities_done">Activities Done</string>
+    <string name="value_type_colon">Value Type: </string>
+    <string name="game">Game</string>
+    <string name="planned_activities">Planned Activities</string>
+    <string name="value">Value</string>
+    <string name="note">Note</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="my_games">My Games</string>
+    <string name="my_activity_types">My Activity Types</string>
+    <string name="save">Save</string>
+    <string name="add_new_game">Add New Game</string>
+    <string name="name_colon">Name:</string>
+    <string name="goal_colon">"Goal: "</string>
+    <string name="done_colon">"Done: "</string>
+    <string name="hour_minute_variable" translatable="false">%02d:%02d</string>
+    <string name="add_activity_done">Add Activity Done</string>
+    <string name="edit_activity_done">Edit Activity Done</string>
+    <string name="select_time">Select time</string>
+    <string name="select_date">Select date</string>
+    <string name="activity_done_added">Activity done added!</string>
+    <string name="activity_done_edited">Activity done edited!</string>
+    <string name="activity_types">Activity Types</string>
+    <string name="day_month_year_hour_minute_variables" translatable="false">%02d/%02d/%04d %02d:%02d</string>
+    <string name="delete_the_activity_done">Delete the activity done?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="h_hours" translatable="false">"h "</string>
+    <string name="m_minutes" translatable="false">m</string>
+    <string name="delete_the_activity_type_bold"><![CDATA[Delete the activity type <b>]]></string>
+    <string name="planned_activities_associeated"><![CDATA[</b>? All the planned activities that are associated with this activity type will also be deleted!]]></string>
+    <string name="delete_the_planned_activity_bold"><![CDATA[Delete the planned Activity <b>]]></string>
+    <string name="activities_done_related"><![CDATA[</b>? All the activities done related to it will also be deleted.]]></string>
+    <string name="deleted_planned_activity" translatable="false">\" deleted\"</string>
+    <string name="delete_game_bold"><![CDATA[Delete game <b>]]></string>
+    <string name="associated_training_plan"><![CDATA[</b>? All the training plans that are associated with this game will be deleted]]></string>
+    <string name="training_plan_deleted">Training Plan deleted</string>
+    <string name="delete_training_plan_bold"><![CDATA[Delete the training Plan<b>]]></string>
+    <string name="planned_activities_and_activites_done_related"><![CDATA[</b>? All the planned activities and activities done related to it will also be deleted.]]></string>
+    <string name="add_activity_type">Add Activity Type</string>
+    <string name="edit_activity_type">Edit Activity Type</string>
+    <string name="sum_explanation">This statistic will sum all your activities done and check if the value is higher than the goal.</string>
+    <string name="average_explanation">This statistic will sum all your activities and divide by the quantity of activities done and check if the value is higher than the goal.</string>
+    <string name="new_activity_type_added">New activity type added!</string>
+    <string name="activity_type_updated">Activity type updated!</string>
+    <string name="edit_game">Edit Game</string>
+    <string name="game_added">Game added!</string>
+    <string name="please_write_description">Please write a description</string>
+    <string name="please_write_game_name">Please write a name to the game</string>
+    <string name="game_updated">Game updated!</string>
+    <string name="add_planned_activity">Add Planned Activity</string>
+    <string name="edit_planned_activity">Edit Planned Activity</string>
+    <string name="sum">Sum</string>
+    <string name="average">Average</string>
+    <string name="minutes">Minutes</string>
+    <string name="warning_save_training_plan">Attention! You need to save the training plan to apply the change to your planned activity!</string>
+    <string name="goal_not_set">Goal not set, so it will be 0 by default</string>
+    <string name="added_planned_activity">Added planned activity</string>
+    <string name="add_training_plan">Add Training Plan</string>
+    <string name="edit_training_plan">Edit Training Plan</string>
+    <string name="active_training_plan_for_game">There is a active training plan for this game</string>
+    <string name="training_plan_added">Training plan added!</string>
+    <string name="please_write_name_training_plan">Please write a name to the training plan</string>
+    <string name="password_empty">Password field is empty!</string>
+    <string name="password_dont_match">Your passwords do not match!</string>
+    <string name="password_updated">Password updated!</string>
+    <string name="error_changing_password">\"There was an error changing the password: \"</string>
+    <string name="error_master_key">Error on getting master key</string>
+    <string name="error_getting_encrypted_shared_pref">Error on getting encrypted shared preferences</string>
+    <string name="profile_updated">Profile updated!</string>
+    <string name="error_updating_email">\"There was an error updating the email: \"</string>
+    <string name="error_authenticating_user">There was an error authenticating the user, please login again!</string>
+    <string name="games">Games</string>
+    <string name="please_write_password">Please write a password</string>
+    <string name="please_write_email">Please write an e-mail.</string>
+    <string name="active_training_plans">Active Training Plans</string>
+    <string name="warning_cant_add_activities_done">Attention! You can\'t add activities done to this planned activity until you save the new training plan!</string>
+    <string name="list_activity_types">List Activity Types</string>
+    <string name="statistic_type_colon">Statistic Type:</string>
+    <string name="sum_label">Sum</string>
+    <string name="average_label">Average</string>
+    <string name="number_label">Number</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>

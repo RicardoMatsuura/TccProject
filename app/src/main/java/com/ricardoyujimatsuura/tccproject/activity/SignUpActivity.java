@@ -1,14 +1,13 @@
 package com.ricardoyujimatsuura.tccproject.activity;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -22,6 +21,8 @@ import com.ricardoyujimatsuura.tccproject.R;
 import com.ricardoyujimatsuura.tccproject.config.FirebaseConfig;
 import com.ricardoyujimatsuura.tccproject.models.User;
 
+import java.util.Objects;
+
 public class SignUpActivity extends AppCompatActivity {
 
     private EditText editTextEmail, editTextName, editTextPassword, editTextNickname;
@@ -34,6 +35,7 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+        Objects.requireNonNull(getSupportActionBar()).setTitle(R.string.register);
 
         //Campos de texto da página de cadastro
 
@@ -94,7 +96,6 @@ public class SignUpActivity extends AppCompatActivity {
                     FirebaseUser registeredUser = task.getResult().getUser();
                     user.setIdFirebase(registeredUser.getUid());
                     user.saveToFirebase();
-                    Log.i("userID: ", user.getIdFirebase());
                     finish();
                 }
                 else {
@@ -115,9 +116,6 @@ public class SignUpActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
 
-                    /*Log.i("Erro:", "createUserWithEmail:failure", task.getException());
-                    Toast.makeText(SignUpActivity.this, "Authentication failed.",
-                            Toast.LENGTH_SHORT).show();*/
                 }
             }
         });
