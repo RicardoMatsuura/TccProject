@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddTrainingPlan">
+
+    <EditText
+        android:id="@+id/editTextTrainingPlanName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewDescriptionTrainingPlan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNameTrainingPlan" />
+
+    <Spinner
+        android:id="@+id/spinnerGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:minHeight="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNameTrainingPlan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGame" />
+
+    <Button
+        android:tooltipText="List Games"
+        android:id="@+id/materialButtonListGames"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="end|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        app:icon="@drawable/ic_baseline_list_24"
+        app:iconPadding="0dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toEndOf="@+id/spinnerGame"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGame" />
+
+    <TextView
+        android:id="@+id/textViewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/game"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNameTrainingPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/name"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTrainingPlanName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGame" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionTrainingPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/description"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTrainingPlanDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTrainingPlanName" />
+
+    <EditText
+        android:id="@+id/editTextTrainingPlanDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionTrainingPlan" />
+
+    <TextView
+        android:id="@+id/textViewPlannedActivitiesAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/planned_activities"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerViewAddedActivities"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTrainingPlanDescription" />
+
+    <Button
+        android:id="@+id/materialButtonAddPlannedActivities"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:gravity="end|center_vertical"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:tooltipText="List Activity Types"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconPadding="0dp"
+        app:iconTint="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlannedActivitiesAdded"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTrainingPlanDescription" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAddedActivities"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:scrollbars="vertical"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlannedActivitiesAdded" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

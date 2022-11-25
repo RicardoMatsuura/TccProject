@@ -3,9 +3,64 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/drawable/ic__324223_ui_essential_app_avatar_profile_icon.xml" value="0.1375" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.314" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.314" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/drawable/save_button.xml" value="0.314" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout-v26/recyclerview_added_planned_activity.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_new_activities_type.xml" value="0.33" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_new_activity_type.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_new_game.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_new_type.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_planned.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_planned_activities.xml" value="0.3092369477911647" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_planned_activity.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_add_training_plan.xml" value="0.33" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_change_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_done.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_edit_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_game.xml" value="0.1" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_game_list.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_main2.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_sign_up.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/activity_type_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/add_planned_activity_toolbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/fragment_first.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/fragment_second.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/item_recyclerview_active_trainingplan.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/item_recyclerview_added_gameactivity.xml" value="0.25" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/item_recyclerview_gameactivity.xml" value="0.5" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/popup_activities.xml" value="0.25" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/popup_add_new_game_activities.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_active_trainingplan.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_activity_done_list.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_activity_type_list.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_added_gameactivity.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_added_planned_activity.xml" value="0.22" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_game_list.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/recyclerview_gameactivity.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/layout/teste.xml" value="0.4282238442822384" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/contextual_menu_add_new_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/contextual_menu_add_new_activity_type.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/contextual_menu_add_planned_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/navigation_menu_main_activity.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/option_menu_game_list.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_activity_done.xml" value="0.33" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_activity_type_list.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_add_new_activity_type.xml" value="0.18512820512820513" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_add_new_game.xml" value="0.18512820512820513" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_add_planned_activity.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_add_training_plan.xml" value="0.22" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_change_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_edit_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_game_list.xml" value="0.7535714285714286" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_main_activity.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_profile.xml" value="0.1" />
+        <entry key="..\:/Users/rymat/AndroidStudioProjects/TccProject/app/src/main/res/menu/options_menu_training_plan.xml" value="0.36102564102564105" />
       </map>
     </option>
   </component>

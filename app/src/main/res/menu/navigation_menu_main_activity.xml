@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemGameListMainActivity"
+        android:title="@string/my_games" />
+    <item
+        android:id="@+id/menuItemActivityTypeListMainActivity"
+        android:title="@string/my_activity_types" ></item>
+    <item
+        android:id="@+id/menuItemLogout"
+        android:title="@string/logout" />
+</menu>

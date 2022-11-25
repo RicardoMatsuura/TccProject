@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TccProject">
         <activity
+            android:name=".activity.ActivityDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityTypeList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GameListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddPlannedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddNewActivityType"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddNewGame"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddTrainingPlan"
+            android:exported="false" />
+        <activity
             android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
